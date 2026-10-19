@@ -1,0 +1,14 @@
+/*
+Theme Name:   Novo Site
+Description:  Tema clássico criado do zero para aprender a estrutura do WordPress.
+Author:       Matheus
+Version:      0.1.0
+Requires at least: 6.5
+Requires PHP: 8.1
+Text Domain:  novosite
+*/
+
+/*
+ * Este cabeçalho é OBRIGATÓRIO: é assim que o WordPress reconhece a pasta como um tema
+ * (aparece em Aparência → Temas). Os estilos de verdade ficam em assets/css/main.css.
+ */

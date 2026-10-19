@@ -1,0 +1,35 @@
+gitignore
+# Ignora TUDO na raiz do WordPress...
+/*
+
+# ...exceto estes arquivos
+!.gitignore
+!README.md
+
+# Dentro do wp-content, ignora tudo menos o nosso tema e o nosso plugin
+!/wp-content/
+/wp-content/*
+
+!/wp-content/themes/
+/wp-content/themes/*
+!/wp-content/themes/novosite/
+
+!/wp-content/plugins/
+/wp-content/plugins/*
+!/wp-content/plugins/site-core/
+
+A lógica é a seguinte: /* ignora tudo, e cada ! abre uma exceção. O site-core é o plugin que vamos criar na etapa de Custom Post Types, e já fica liberado desde agora.
+
+3. Rodar os coma
+
+cd C:\wamp64\www\projeto-novositewordpress
+
+git init -b main
+
+!/wp-content/themes/
+/wp-content/themes/*
+!/wp-content/themes/novosite/
+
+!/wp-content/plugins/
+/wp-content/plugins/*
+!/wp-content/plugins/site-core/
